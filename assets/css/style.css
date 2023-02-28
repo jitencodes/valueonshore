@@ -510,7 +510,7 @@ box-shadow: -1px 1px 9px -3px rgba(0,0,0,0.63);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: var(--orange);
+  background-color: var(--bg-footer-lite);
   font-size: 1.7rem;
   width: 32px;
   height: 32px;
@@ -521,7 +521,7 @@ box-shadow: -1px 1px 9px -3px rgba(0,0,0,0.63);
   transition: var(--transition-1);
 }
 
-.slider-btn:is(:hover, :focus-visible) { background-color: var(--orange); }
+.slider-btn:is(:hover, :focus-visible) { background-color: var(--bg-footer-lite); }
 
 .slider-btn:disabled { display: none; }
 
